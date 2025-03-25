@@ -1,0 +1,13 @@
+digraph {
+	A [label="Job Posting"]
+	B [label=Preprocessing]
+	C [label="BERT Embedding"]
+	D [label="Hybrid Model"]
+	E [label="Output (Real/Fake)"]
+	F [label="Moderation Action"]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+}
